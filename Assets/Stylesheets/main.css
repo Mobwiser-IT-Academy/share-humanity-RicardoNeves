@@ -19,12 +19,12 @@ h2 {
 }
 
 .logo {
-  width: 20%;
-  padding: 15px; 
+  width: 160px;
+  padding: 5px; 
 }
 
 .logo2 {
-  width: 5%;
+  width: 50px;
 }
 
 .menu {
@@ -84,7 +84,7 @@ h2 {
 
   ul {
     display: box;
-    font-size: 1.4em;
+    font-size: 1.1em;
     line-height: 1.2em;
     padding: .5em;
     color: rgb(0, 0, 0);
