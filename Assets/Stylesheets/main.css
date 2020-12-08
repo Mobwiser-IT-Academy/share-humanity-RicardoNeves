@@ -1,0 +1,309 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 0;
+  padding: 0; 
+  border: 0;
+}
+
+body {
+  background-color: rgb(164, 181, 185);
+}
+
+header { 
+  background: #141414;
+  background: linear-gradient(#374241, #738292);
+  align-items: center;
+  display: flex;
+}
+
+.logo {
+  width: 150px;
+  border-radius: 1em;
+  padding: .5em;
+}
+
+.phrase {
+  width: 100%;
+  margin-left: .8em;
+  color: rgb(43, 43, 47);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 800;
+  font-size: 4em;
+  text-align: center;
+}
+
+.menu {
+  list-style: none;
+  font-size: 18px;
+  margin-left: 0;
+  display: flex;
+}
+
+.menu a {
+  text-decoration: none;
+  color: rgb(207, 203, 198);
+  padding: .5em 15px;
+  cursor: pointer;
+  font-size: 1em;  
+}
+
+.menu a:hover {
+  color: rgb(179, 169, 169);
+}
+
+.quote {
+  font-weight: 400;
+  font-size: 1.5em;
+  line-height: 1.5em;  
+  color: rgb(37, 37, 41); 
+  padding-right: .5em;
+  padding-left: .5em; 
+  margin: .8em 0 1em; 
+  text-align: center;
+}
+
+.container-issues {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px;
+}
+
+#issue1, #issue2, #issue3, #issue4, #issue5, #issue6, #issue7, #issue8 { 
+  overflow: hidden;
+  background-color: rgb(126, 124, 121);
+  box-shadow: 0px 2px 8px 0px;
+  text-align: center;
+  border-radius: 15px;
+  flex-basis: 300px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.container-issues h3 {
+  padding: 10px;
+  font-size: 25px;  
+  color: rgb(47, 49, 49);
+  text-align: center;
+  background-color: rgb(110, 115, 116);
+}
+
+.container-issues p {
+  font-size: 16px;
+  padding: 10px;  
+  text-align: center;
+}
+
+.container-issues img {
+  position: relative;
+  height: 200px;
+  flex-basis: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-issues a {
+  color: antiquewhite;
+  font-size: 16px;
+  padding-top: 5px;
+  padding-bottom: 8px;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  background-color: rgb(53, 51, 51);
+}
+
+.container-issues a:hover {
+  color: rgb(179, 169, 169);
+}
+
+.logo2 {
+  width: 50px;
+  padding: .2em;
+}
+
+footer {
+  display: flex;  
+  justify-content: space-around;
+  align-items: center;  
+  background: #141414;
+  background: linear-gradient(#374241, #738292);
+  border-radius: 6px;
+}
+
+footer p {
+  color: antiquewhite;
+  font-size: 18px;
+}
+
+footer h5 a {
+  color: antiquewhite;  
+  font-size: 18px;
+}
+
+footer h5 a:hover {
+  color: rgb(164, 160, 195);
+}
+
+@media(max-width:1216px) {
+
+  .phrase {
+    font-size: 3em;
+    margin-left: .8em;
+  }
+
+  .quote {
+    font-weight: 250;
+    font-size: 1.4em;
+    line-height: 1.3em;  
+    color: rgb(37, 37, 41);  
+    margin: .8em; 
+    text-align: center;
+  }
+}
+
+@media(max-width:919px) {
+
+  .menu a {
+    font-size: .8em
+  }
+  
+  .quote {
+    font-weight: 250;
+    font-size: 1.3em;
+    line-height: 1.3em;  
+    color: rgb(37, 37, 41);  
+    margin: .8em; 
+    text-align: center;
+  }
+
+  .container-issues h3 {
+    font-size: 1.9em;
+  }
+
+  .phrase {
+    font-size: 2.5em;
+    margin-left: .8em;
+  }
+}
+
+@media(max-width:623px) {
+
+  .menu a {
+    font-size: .7em;
+  }
+
+  .quote {
+    font-weight: 250;
+    font-size: 1.1em;
+    line-height: 1.3em;  
+    color: rgb(37, 37, 41);   
+    margin: .8em; 
+    text-align: center;
+  }
+
+  .container-issues h3 {
+    font-size: 1.5em;
+  }
+
+  .phrase {
+    font-size: 1.8em;
+    margin-left: .8em;
+  }
+
+  footer p {
+    color: antiquewhite;
+    font-size: 12px;
+  }
+  
+  footer h5 a {
+    color: antiquewhite;  
+    font-size: 12px;
+  }
+}
+
+#box-1, #box-2, #box-3, #box-4, #box-5, #box-6, #box-7, #box-8 {
+  overflow: hidden;
+  box-shadow: 0px 2px 8px 0px;
+  background-color: rgb(179, 190, 200);
+  border-radius: 15px;
+  flex-basis: 300px;
+  padding-bottom: .5em;
+  margin-bottom: 1rem;  
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+#box-1 p, #box-2 p, #box-3 p, #box-4 p, #box-5 p, #box-6 p, #box-7 p, #box-8 p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+  font-size: 1em;
+  padding: 0 .7em .7em;
+  text-indent: 1em;
+  color: rgb(41, 43, 44);
+  text-align: justify;
+  font-weight: 350;
+}
+
+.solution ul {
+  display: box;
+  font-size: 1.1em;
+  line-height: 1.5em;
+  padding: .3em;
+  color: rgb(41, 43, 44);
+  margin-left: 40px;
+  list-style-type: circle;
+  text-align: justify;
+}
+
+ul {
+  display: box;
+  font-size: 1em;
+  line-height: 1em;
+  padding: .7em;
+  color: rgb(41, 43, 44);
+  margin-left: 40px;
+  list-style-type: circle;
+  text-align: justify;
+}
+
+.container-3 h3 {
+  border-radius: 0 0 .9em .9em;
+  padding: .8em;
+  margin-bottom: .5em;
+  font-size: 2em;  
+  color: rgb(72, 75, 75);
+  text-align: center;
+  background-color: rgb(145, 168, 172);
+}
+
+.quote-1 {
+  font-weight: 250;
+  font-size: 1.2em;
+  line-height: 1.3em;  
+  color: rgb(10, 118, 158); 
+  text-align: center;
+  margin: 0 .8em .8em;
+}
+
+.quote-1 h5 {
+  font-size: 17px;
+  text-align: center;
+  padding: .5em;
+  color: rgb(13, 67, 86);
+}
+
+h2 {
+  padding: .4em;
+  font-size: 20px;  
+  color: rgb(43, 43, 44);
+}
+
+h4 {
+  padding-left: 1em;
+  padding-bottom: .3em;
+  font-size: 18px;  
+  color: rgb(13, 47, 47);
+}
